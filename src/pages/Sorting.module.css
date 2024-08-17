@@ -1,0 +1,99 @@
+.tools {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 10px;
+    padding: 10px;
+}
+
+
+
+.canvas {
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.colorItems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.colorItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 10px;
+}
+
+.desc {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 10px;
+}
+
+.difficult {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.code {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 10px;
+    gap: 10px;
+}
+
+.code div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.code div pre {
+    height: 100%;
+}
+
+.code div pre code {
+    height: 100%;
+}
+
+@media (max-width: 1000px) {
+    .tools {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .code {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+}
